@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Jogo da Velha</title>
+  </head>
+
+  <body>
+    <h1 class="titulo">Jogo da Velha</h1>
+    <div id="acabou"></div>
+
+    <div id="container">
+      <div class="linhas" id="linha1">
+        <div class="box" title="" id="box1" onclick="marcar('0')"></div>
+        <div class="box" title="" id="box2" onclick="marcar('1')"></div>
+        <div class="box" title="" id="box3" onclick="marcar('2')"></div>
+      </div>
+      <div class="linhas" id="linha2">
+        <div class="box" title="" id="box4" onclick="marcar('3')"></div>
+        <div class="box" title="" id="box5" onclick="marcar('4')"></div>
+        <div class="box" title="" id="box6" onclick="marcar('5')"></div>
+      </div>
+      <div class="linhas" id="linha3">
+        <div class="box" title="" id="box7" onclick="marcar('6')"></div>
+        <div class="box" title="" id="box8" onclick="marcar('7')"></div>
+        <div class="box" title="" id="box9" onclick="marcar('8')"></div>
+      </div>
+
+      <button id="btn" onclick="resetar()">Reiniciar</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
