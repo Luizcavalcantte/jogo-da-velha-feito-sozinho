@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,7 +9,6 @@ body {
   background-color: #14bdac;
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
 
@@ -22,16 +22,12 @@ body {
 
 .linhas {
   display: flex;
-
   justify-content: center;
   background-color: rgb(49, 48, 48);
-  margin: 0;
-  padding: 0;
 }
 
 .box {
   position: relative;
-
   background-color: yellowgreen;
   height: 150px;
   width: 150px;
